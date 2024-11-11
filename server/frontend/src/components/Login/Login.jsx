@@ -10,6 +10,7 @@ const Login = ({ onClose }) => {
   const [open,setOpen] = useState(true)
 
   let login_url = window.location.origin+"/djangoapp/login";
+//   let login_url = window.location.origin+"/login";
 
   const login = async (e) => {
     e.preventDefault();
